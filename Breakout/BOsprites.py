@@ -23,7 +23,7 @@ class Ball(pygame.sprite.Sprite):
         self.rect.center = (screen.get_width()/2,235)
  
         # Instance variables to keep track of the screen surface
-        # and set the initial x and y vector for the ball.
+        # and set the initial x and y components for the ball.
         self.window = screen
         self.dx = 6
         self.dy = -5
